@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Test Page</title>
+    <link rel="stylesheet" href="/ai-assistant/styles.css" />
+</head>
+
+<body style="background: #121215; color: #fff; font-family: 'Inter', sans-serif; padding: 40px;">
+    <h1>AI Assistant Test Page</h1>
+    <p>The AI assistant should appear in the bottom-right corner on the homepage only.</p>
+    <p>Current path: <span id="path"></span></p>
+
+    <script>
+        document.getElementById('path').textContent = window.location.pathname;
+    </script>
+    <script src="/ai-assistant/script.js" defer></script>
+</body>
+
+</html>
