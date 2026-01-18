@@ -1,187 +1,167 @@
 # CLONE-LINEAR.APP
 
-Linear.app Clone
-
-High-Performance, AI-Assisted Issue Tracking Platform
-
-Overview
-
-This project is a high-fidelity clone of the Linear web application, engineered to replicate its minimalist design, exceptional responsiveness, and productivity-first workflow.
-In addition to core issue-tracking capabilities, the build integrates a configurable AI Intelligence Layer that automates project management actions, summaries, and prioritization.
-
-This project was built using Vibe Coding methodologies and AI-accelerated development workflows to maximize speed, maintainability, and functional completeness.
-
-Core Objectives
-1. Product Clone
-
-Reproduce the Linear experience with strong fidelity, including:
-
-Fast, reactive UI
-
-Real-time updates
-
-Keyboard-first interactions
-
-Projects, Issues, Labels, and Status workflows
-
-Teams and assignment model
-
-Kanban and list views
-
-Global search and quick commands
-
-2. AI-Driven Productivity
-
-A tightly embedded AI assistant enables:
-
-Natural-language task creation
-
-Automated subtask generation
-
-Smart sprint and backlog prioritization
-
-Issue grouping and duplication detection
-
-Weekly summaries and stand-ups
-
-Release notes and changelog generation
-
-Workload and progress forecasting
-
-The AI layer operates as a context-aware copilot inside every workflow and can automate actions or return structured execution plans.
-
-Technology Used (Example Stack)
-
-Adapt and replace for your actual implementation.
-
-Next.js / React
-
-Prisma / PostgreSQL
-
-WebSockets / tRPC
-
-Tailwind / Shadcn UI
-
-Zustand / Query / Rx state
-
-Server Actions + Edge Runtime
-
-Authentication (Auth.js or Supabase)
-
-Vector Store for context memory
-
-Deployment: Vercel + PlanetScale/Supabase
-
-AI Models Used and Their Roles
-
-This build leverages multiple specialized foundation models.
-Each model is selected for the task where it delivers highest productivity and lowest latency.
-
-Gemini 3 Pro (High)
-
-High-context reasoning
-
-Large backlogs and multi-issue analysis
-
-Sprint planning, summarization, and UX-facing reasoning
-
-Gemini 3 Pro (Low)
-
-Fast interactive agent for UI queries
-
-Lightweight drafting and conversational responses
-
-Gemini 3 Hash New
-
-Classification tasks
-
-Issue labeling, routing, duplication detection
-
-Claude Sonnet 4.5
-
-Decision support and prioritization heuristics
-
-Rewrite, refine, and improve user descriptions
-
-Stand-up formats and stakeholder updates
-
-Claude Sonnet 4.5 (Thinking)
-
-Deep analysis and restructuring
-
-Blocker detection and project risk modeling
-
-Claude Opus 4.5 (Thinking)
-
-Complex cross-project synthesis
-
-Roadmap design and multi-team coordination logic
-
-GPT-OSS 120B (Medium)
-
-On-device or local inference fallback
-
-Structured JSON, parsing, validation, and automation triggers
-
-Guaranteed deterministic output when required
-
-The AI layer intelligently routes requests to the best model based on:
-
-Latency tolerance
-
-Context size
-
-Output format (natural / structured)
-
-Reasoning complexity
-
-Key Features
-
-Fast, offline-first UI design
-
-Issue, project, and label management
-
-Real-time collaboration
-
-Keyboard and command-palette workflows
-
-AI work automation and triage actions
-
-Intelligent prioritization and teammate workload awareness
-
-Getting Started
+# ⚡ Linear.app Clone  
+A Lightning-Fast, AI-Powered Issue Tracking Experience
+
+---
+
+## ✨ Why This Exists  
+This project captures the speed, polish, and minimalist beauty of **Linear**, and extends it with a deeply integrated AI layer that helps teams stay focused and ship faster.
+
+Built using Vibe Coding workflows to showcase:
+- 🚀 Velocity in execution  
+- 🎯 Precision in product focus  
+- 🧠 Intelligent tool orchestration  
+- 🛠️ Clean system architecture
+
+---
+
+## 🌍 Product Vision  
+A workspace where:
+- Tasks organize themselves ✍️  
+- Priorities reveal themselves 🔍  
+- Teams stay in alignment 👥  
+- AI quietly handles the complexity 🤖
+
+Not just a clone.  
+A **smarter evolution of product work**.
+
+---
+
+## 🧩 Core Deliverables
+
+### 1️⃣ Pixel-Perfect Linear Experience  
+Core UX capabilities:
+- ✨ Ultra-fast UI
+- 🎛️ Real-time state updates
+- ⌨️ Keyboard-first navigation
+- 🧱 Projects, issues, labels, teams
+- 📋 Sprints, cycles, workflows
+- 🔎 Global command palette
+
+### 2️⃣ Intelligent AI-Powered Operations  
+AI augments every step of work:
+- 👉 Convert natural text into structured tasks
+- 🪜 Auto-generate subtasks
+- 🧮 Prioritize backlogs dynamically
+- ℹ️ Detect duplicates & missing context
+- 📊 Generate weekly standups + reports
+- 📌 Suggest assignments + capacity balance
+- 📣 Draft release notes from shipped tasks
+
+AI is not bolted on.  
+It is **woven into workflow**.
+
+---
+
+## 🛠️ Tech Stack (Example)
+Swap in your actual setup as needed.
+
+- 🌐 Next.js + React  
+- 🎨 Tailwind + shadcn/ui  
+- ⚙️ Node.js + Prisma + PostgreSQL  
+- 🔌 tRPC / WebSockets  
+- 🔐 Auth.js / Supabase  
+- 🧠 Vector Store for memory  
+- ☁️ Vercel + PlanetScale/Supabase
+
+---
+
+## 🤖 AI Model Roles  
+Each model is used where it performs best.
+
+### ⚜️ Gemini 3 Pro (High)
+Strategic brain  
+- Sprint planning  
+- Multi-issue analysis  
+- Deep summaries
+
+### 🚀 Gemini 3 Pro (Low)
+Low-latency assistant  
+- Instant chats  
+- Real-time task refinement
+
+### 🔎 Gemini 3 Hash New
+Signal engine  
+- Auto-labeling  
+- Duplicate detection  
+- Task classification
+
+### 🪄 Claude Sonnet 4.5
+Product voice + clarity  
+- Rewrite user stories  
+- Create standups  
+- Condense content
+
+### 🧠 Claude Sonnet 4.5 (Thinking)
+Analytical planner  
+- Blocker detection  
+- Risk + timeline assessment
+
+### 🏛 Claude Opus 4.5 (Thinking)
+High-order synthesis  
+- Cross-team roadmapping  
+- Release coordination
+
+### 🧩 GPT-OSS 120B (Medium)
+Local + structured output  
+- JSON actions  
+- Automation rules  
+- Deterministic fallback
+
+📡 **Routing Logic**  
+- Small ask → ⚡ Pro Low  
+- Large context → ✨ Pro High  
+- Multi-team logic → 🏛 Opus  
+- Structured rules → 🧩 OSS  
+- Ambiguous request → ❓ Ask for clarity
+
+---
+
+## 🎯 Feature Highlights
+- ⚡ Instant UI response times  
+- 🔁 Real-time collaboration  
+- 🧮 AI-driven prioritization  
+- 🎛 Command palette workflows  
+- 🧑‍🤝‍🧑 Team assignment + load balancing  
+- 💡 Smart suggestions + automation
+
+---
+
+## 🚦 Getting Started
+
+```bash
 git clone <repo>
 cd linear-clone
 npm install
 npm run dev
+```
 
+Set environment variables:
+- DATABASE_URL  
+- Auth provider keys  
+- AI API keys  
+- Vector & embedding configuration
 
-Set environment variables for:
+Navigate to  
+`http://localhost:3000`
 
-Database
+---
 
-Auth provider
+## 📈 Current Status
+- Core UI complete  
+- AI integrated across workflows  
+- Ready for extensions + scaling
 
-Vector store / embedding
+---
 
-Model API keys
+## 🗺️ Roadmap
+- 🔔 Notification + Slack integration
+- 🌐 GitHub commit linking
+- 🪝 Custom automation triggers
+- 💻 Offline desktop build
+- 🏢 Multi-tenant workspace support
+- 🧩 Knowledge graph across tasks + docs
 
-Visit http://localhost:3000
+---
 
-Status
-
-MVP complete
-AI assistants integrated
-Ready for scaling, optimization, and additional workflows
-
-Roadmap
-
-Notifications and alerts
-
-Git integration
-
-Custom workflows and automations
-
-Multitenancy
-
-Offline desktop client
